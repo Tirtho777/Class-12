@@ -4,40 +4,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Terminal List</title>
+    <link rel="stylesheet" href="./src/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./src/output.css">
 </head>
 <body>
-    <div class="bg-[url(../assets/banner.png)] h-[1080px] w-full bg-no-repeat bg-cover">
+<div class="bg-[url(../assets/banner.png)] h-270 w-full bg-no-repeat bg-cover">
     <div class="max-w-330 mx-auto">
-            <div class=" justify-between py-7 bg-transparent flex">
-                <div class="bg-[url(../assets/logo.png)] h-12 w-36 bg-no-repeat bg-cover pt-[25px]"></div>
-                <ul class="text-white pt-[18px] w-[40%] flex justify-between " >
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Tornament</a></li>
-                    <li><a href="#">Store</a></li>
-                    <li><a href="#">Team</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                </ul>
-                <div>
-                    <ul class="w-[60%] text-white pt-[18px] l">
-                        <li>Sing In</li>
+        <!-- nav bar start -->
+            <div class="flex justify-between">
+                <div class="flex justify-between">
+                    <div class="pt-5"> <img src="./assets/logo.png" alt=""></div>
+
+                    <ul class="text-[#DDDDDD] flex gap-8 pl-20  font-oswald pt-9 text-[16px]">
+                        
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Tornament</a></li>
+                            <li><a href="#">Store</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#" class="">Contact Us</a></li>
+                        
                     </ul>
                 </div>
+                    
+                    <div class="text-white flex pt-8.5">
+                        <i class="fa-solid fa-globe py-1"></i> <i class=" py-1 pl-5 fa-solid fa-arrow-right-to-bracket"></i>
+                            <ul class="text-white flex">
+                                <li class="px-7 text-[#FFFFFF]">Sing In</li>
+                                    <i class=" fa-solid fa-magnifying-glass py-1"></i>
+                            </ul>
+                    </div>
+                    
                 </div>
+            </div>
+        <!-- nav bar end -->
+        <!-- body uppersection bar start -->
+
+        <div class="max-w-330 mx-auto">
+            <div class="">
+                <h4 class="text-[#FFFFFF] text-[27px] font-oswald pt-[337px]">LIFE TIME</h4>
+                <h2 class="text-[#FFFFFF] text-[60px] font-oswald  font-semibold relative inline-block pr-[110px] after:content-[''] after:absolute after:right-0 after:bottom-[20px] after:w-[90px] after:h-[4px] after:bg-[#FFFFFF]">GAMING EXPERIENCE</h2>
+                
+            </div>
+            
+            <div class="pt-[125px]">
+                <button class="h-[50px] w-[128px] bg-[#FFFFFF]">
+                    <li>
+                    <ul class="text-midle">
+                        <a href="#">View More <i class="fa-solid fa-angles-right"></i></a>
+                    </ul>
+                </li>
+                </button>
 
 
 
 
-
-
-
-
+            </div>
         </div>
-    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    </div> 
+    <!-- body uppersection bar end -->
+         
+
+
+
+
+
+
+
+
+
+        
+</div>     
 </body>
 </html>
