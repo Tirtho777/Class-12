@@ -3,7 +3,7 @@
   --font-oswald: "Oswald", sans-serif;
   --spacing-myContainer: 1320px;
 }
-.font-oswald {
+.font-oswald{
   font-family: var(--font-oswald);
 }
 
