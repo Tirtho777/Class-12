@@ -1,4 +1,12 @@
 @import "tailwindcss";
 @theme {
   --font-oswald: "Oswald", sans-serif;
+  --spacing-myContainer: 1320px;
+}
+.font-oswald {
+  font-family: var(--font-oswald);
+}
+
+.barlow-condensed{
+  font-family: "Barlow Condensed", sans-serif;
 }
